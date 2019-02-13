@@ -1,6 +1,5 @@
-package bean.kotlin
+package com.alex.bean.kotlin
 
-import bean.kotlin.Box
 
 /**
  * Created by AlexHe on 2019-02-12.

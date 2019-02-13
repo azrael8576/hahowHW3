@@ -36,7 +36,7 @@ public class Box {
             }
         }
         else if (height > this.height) {
-            System.out.println("物品面積過高，請選其他箱子！");
+            System.out.println("物品體積過高，請選其他箱子！");
             return false;
         }
         return true;
