@@ -42,16 +42,16 @@ private fun inputBoxInfo(work: Boolean, boxList: HashMap<String, Box>) {
 }
 
 private fun selectBox(work: Boolean, boxList: HashMap<String, Box>) {
-    var work1 = work
-    while (work1 == false) {
+    var work = work
+    while (work == false) {
         selectedBox = readLine().toString()
         for (box in boxList!!.values) {
             if (selectedBox == box.getName()) {
                 println("You selected: " + box.getName())
-                work1 = true
+                work = true
             }
         }
-        if (work1 == false) {
+        if (work == false) {
             println("Error, Please enter again.")
         }
     }
